@@ -19,6 +19,15 @@ Content-Type: application/json
 }
 
 ###
+POST {{BASE_URL}}/stress/anonymous HTTP/1.1
+Authorization: {{TOKEN}}
+Content-Type: application/json
+
+{
+    "stressLevelId": 2,
+    "anonymousId": "anonymousId"
+}
+###
 POST  {{BASE_URL}}/stress/db0104ef-6cfe-4cbb-bc6f-a991a2f8c109/upload HTTP/1.1
 Authorization: {{TOKEN}}
 Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW

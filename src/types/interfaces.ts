@@ -17,6 +17,7 @@ export interface Stress {
   userId: string;
   stressLevelId: number;
   stressLevel?: StressLevel;
+  isAnonymous?: boolean;
   createdAt: Date;
   updatedAt?: Date;
 }

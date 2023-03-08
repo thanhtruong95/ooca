@@ -44,7 +44,33 @@ export const stress_createStress = async (
       userId: user.id,
     };
 
-    const _stressCreated = await createStress(stress);
+    await createStress(stress);
+    return res.send({ data: stress });
+  } catch (error) {
+    next(error);
+  }
+};
+
+export const stress_createStressAnonymous = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+): Promise<Response> => {
+  try {
+    const { stressLevelId, anonymousId } = req.body as {
+      stressLevelId: number;
+      anonymousId: string;
+    };
+
+    const stress: Stress = {
+      createdAt: new Date(),
+      id: uuidV4(),
+      stressLevelId: stressLevelId,
+      userId: anonymousId,
+      isAnonymous: true,
+    };
+
+    await createStress(stress);
     return res.send({ data: stress });
   } catch (error) {
     next(error);
@@ -71,6 +97,7 @@ export const stress_uploadImage = async (
       });
     }
     const files = req.files;
+    //check the images was uploaded
     if (!files || !Array.isArray(files)) {
       return res.status(ERROR_TYPEs.BAD_REQUEST.code).send({
         data: null,
@@ -93,8 +120,6 @@ export const stress_uploadImage = async (
     });
 
     const _imageCreated = await createImages(_images);
-    console.log(_imageCreated);
-
     //this image size config can be loaded from database or app config
     const thumbnailConfigs = [
       {
@@ -110,7 +135,7 @@ export const stress_uploadImage = async (
         type: "pc",
       },
     ];
-
+    //create thumbnail base one config
     const thumbnails = _imageCreated.reduce(
       (list: Thumbnail[], curr: Image) => {
         thumbnailConfigs.forEach(async (thumb) => {
@@ -128,7 +153,7 @@ export const stress_uploadImage = async (
             thumb.heigh
           );
           // set the output format and quality of the resized image
-          pipeline.toFormat(outputFormat, { quality: 90 });
+          pipeline.toFormat(outputFormat, { quality: 100 });
           // write the resized image to a new file
 
           pipeline.toFile(targetPath);

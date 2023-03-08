@@ -1,13 +1,17 @@
 import { Router } from "express";
 import {
   stress_createStress,
+  stress_createStressAnonymous,
   stress_getStressByUser,
   stress_uploadImage,
 } from "../controllers/stress.controller";
 import multer from "multer";
 import { auth } from "../middleware/auth";
 import { validateDto } from "../middleware/validateDTO";
-import { createStressSchema } from "../utils/schemas";
+import {
+  createStressSchema,
+  createStressAnonymousSchema,
+} from "../utils/schemas";
 const uploadImages = multer({
   // limits: {
   //   fileSize: 1000000,
@@ -38,5 +42,11 @@ router.post(
 router.get("/", stress_getStressByUser);
 
 router.post("/", auth(), validateDto(createStressSchema), stress_createStress);
+
+router.post(
+  "/anonymous",
+  validateDto(createStressAnonymousSchema),
+  stress_createStressAnonymous
+);
 
 export default router;
