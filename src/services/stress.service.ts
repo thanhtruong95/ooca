@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { Image, Stress, Thumbnail } from "../types/interfaces";
+import { getStressLevels } from "./stressLevel.service";
 
 const stressFilePath = path.join(__dirname, "..", "datas", "stresses.json");
 const imageFilePath = path.join(__dirname, "..", "datas", "images.json");
@@ -16,8 +17,20 @@ export const getStressByUserId = async (userId: string): Promise<Stress[]> => {
   const stressesJson = await fs.promises.readFile(stressFilePath, "utf8");
   if (stressesJson) {
     const _stresses: Stress[] = JSON.parse(stressesJson);
-    const userStresses = _stresses.filter((stress) => stress.userId === userId);
-    return userStresses;
+    const _userStresses = _stresses.filter(
+      (stress) => stress.userId === userId
+    );
+    const _stressLevels = await getStressLevels();
+    const _images = await getImageByStress(
+      _userStresses.map((stress) => stress.id)
+    );
+    _userStresses.forEach((stress) => {
+      stress.stressLevel = _stressLevels.find(
+        (level) => level.id === stress.stressLevelId
+      );
+      stress.image = _images.filter((image) => image.stressId === stress.id);
+    });
+    return _userStresses;
   }
   return [];
 };
@@ -69,4 +82,38 @@ export const createThumbnails = async (
   }
   await fs.promises.writeFile(thumbnailFilePath, JSON.stringify(thumbnails));
   return thumbnails;
+};
+
+export const getImageByStress = async (
+  stressIds: string[]
+): Promise<Image[]> => {
+  const imagesJson = await fs.promises.readFile(imageFilePath, "utf8");
+  if (imagesJson) {
+    const _images: Image[] = JSON.parse(imagesJson);
+    const _imagesStress = _images.filter((image) =>
+      stressIds.includes(image.stressId)
+    );
+    const _thumbnails = await getThumbnailsByImage(
+      _imagesStress.map((image) => image.id)
+    );
+    _imagesStress.forEach(
+      (image) =>
+        (image.thumbnails = _thumbnails.filter(
+          (thumb) => thumb.imageId === image.id
+        ))
+    );
+    return _imagesStress;
+  }
+  return [];
+};
+
+export const getThumbnailsByImage = async (
+  imageId: string[]
+): Promise<Thumbnail[]> => {
+  const thumbnailsJson = await fs.promises.readFile(thumbnailFilePath, "utf8");
+  if (thumbnailsJson) {
+    const _thumbnails: Thumbnail[] = JSON.parse(thumbnailsJson);
+    return _thumbnails.filter((image) => imageId.includes(image.imageId));
+  }
+  return [];
 };

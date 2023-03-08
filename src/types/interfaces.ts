@@ -18,6 +18,7 @@ export interface Stress {
   stressLevelId: number;
   stressLevel?: StressLevel;
   isAnonymous?: boolean;
+  image?: Image[];
   createdAt: Date;
   updatedAt?: Date;
 }
@@ -27,6 +28,7 @@ export interface Image {
   stressId: string;
   originalPath: string;
   createdAt: Date;
+  thumbnails?: Thumbnail[];
   name: string;
 }
 

@@ -27,6 +27,9 @@ Content-Type: application/json
     "stressLevelId": 2,
     "anonymousId": "anonymousId"
 }
+
+###
+GET {{BASE_URL}}/stress/97e490db-f099-4a12-9fd0-f5aaa951f575 HTTP/1.1
 ###
 POST  {{BASE_URL}}/stress/db0104ef-6cfe-4cbb-bc6f-a991a2f8c109/upload HTTP/1.1
 Authorization: {{TOKEN}}

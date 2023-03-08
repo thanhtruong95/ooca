@@ -39,7 +39,7 @@ router.post(
   stress_uploadImage
 );
 
-router.get("/", stress_getStressByUser);
+router.get("/:userId", stress_getStressByUser);
 
 router.post("/", auth(), validateDto(createStressSchema), stress_createStress);
 
