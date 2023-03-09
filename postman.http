@@ -1,0 +1,42 @@
+@BASE_URL=http://localhost:9000
+@TOKEN=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijk3ZTQ5MGRiLWYwOTktNGExMi05ZmQwLWY1YWFhOTUxZjU3NSIsImZpcnN0TmFtZSI6IkFsZXgiLCJsYXN0TmFtZSI6IlRydW9uZyIsImlhdCI6MTY3ODI3NTgyMSwiZXhwIjoxNjc4MjkwMjIxfQ.4aJiS6YHyY2h5BtEfIvZWWfLVg3A9lnQiZpwGUKIIDI
+###
+POST {{BASE_URL}}/user/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "guest",
+    "password": "guest"
+}
+
+###
+POST {{BASE_URL}}/stress HTTP/1.1
+Authorization: {{TOKEN}}
+Content-Type: application/json
+
+{
+    "stressLevelId": 2
+}
+
+###
+POST {{BASE_URL}}/stress/anonymous HTTP/1.1
+Authorization: {{TOKEN}}
+Content-Type: application/json
+
+{
+    "stressLevelId": 2,
+    "anonymousId": "anonymousId"
+}
+
+###
+GET {{BASE_URL}}/stress/97e490db-f099-4a12-9fd0-f5aaa951f575 HTTP/1.1
+###
+POST  {{BASE_URL}}/stress/db0104ef-6cfe-4cbb-bc6f-a991a2f8c109/upload HTTP/1.1
+Authorization: {{TOKEN}}
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="image"; filename="logo-avatar.png"
+
+< /Users/alextruong/Workspace/logo-avatar.png
+------WebKitFormBoundary7MA4YWxkTrZu0gW--

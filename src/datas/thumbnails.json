@@ -1,0 +1,122 @@
+[
+  {
+    "height": 200,
+    "id": "026a42bf-f958-453a-8f17-43b1b270cedf",
+    "imageId": "9499cb5d-fa68-438c-aa09-145a2078589a",
+    "name": "1678291237201-logo-avatar.png",
+    "path": "uploads/200x200-1678291237201-logo-avatar.png",
+    "size": "200x200",
+    "type": "mobile",
+    "width": 200
+  },
+  {
+    "height": 200,
+    "id": "2c414db2-e60e-453f-9ae6-9ffca19d7827",
+    "imageId": "9499cb5d-fa68-438c-aa09-145a2078589a",
+    "name": "1678291237201-logo-avatar.png",
+    "path": "uploads/200x400-1678291237201-logo-avatar.png",
+    "size": "200x400",
+    "type": "pc",
+    "width": 400
+  },
+  {
+    "height": 200,
+    "id": "2ae911af-3bb5-44cb-8862-69a47b2c0d22",
+    "imageId": "0b8cc242-00f5-445a-8636-73f1ecd955d7",
+    "name": "1678291452422-logo-avatar.png",
+    "path": "uploads/200x200-1678291452422-logo-avatar.png",
+    "size": "200x200",
+    "type": "mobile",
+    "width": 200
+  },
+  {
+    "height": 200,
+    "id": "bc63d6d5-a877-4ada-99df-57a9250c569c",
+    "imageId": "0b8cc242-00f5-445a-8636-73f1ecd955d7",
+    "name": "1678291452422-logo-avatar.png",
+    "path": "uploads/200x400-1678291452422-logo-avatar.png",
+    "size": "200x400",
+    "type": "pc",
+    "width": 400
+  },
+  {
+    "height": 200,
+    "id": "4cee049d-748f-4476-aa92-d5b6ab248ea8",
+    "imageId": "2b90ff4e-3bfa-473b-90e1-7e5951d054b4",
+    "name": "1678291453120-logo-avatar.png",
+    "path": "uploads/200x200-1678291453120-logo-avatar.png",
+    "size": "200x200",
+    "type": "mobile",
+    "width": 200
+  },
+  {
+    "height": 200,
+    "id": "3cd68794-9914-4529-9c25-f286c9a09247",
+    "imageId": "2b90ff4e-3bfa-473b-90e1-7e5951d054b4",
+    "name": "1678291453120-logo-avatar.png",
+    "path": "uploads/200x400-1678291453120-logo-avatar.png",
+    "size": "200x400",
+    "type": "pc",
+    "width": 400
+  },
+  {
+    "height": 200,
+    "id": "08579f40-ed5c-4421-a6dc-9a6377317114",
+    "imageId": "b21d9827-c011-465c-8259-d63ea252106f",
+    "name": "1678291453620-logo-avatar.png",
+    "path": "uploads/200x200-1678291453620-logo-avatar.png",
+    "size": "200x200",
+    "type": "mobile",
+    "width": 200
+  },
+  {
+    "height": 200,
+    "id": "54656c42-1ce7-4dee-bd9c-bbaf11daff45",
+    "imageId": "b21d9827-c011-465c-8259-d63ea252106f",
+    "name": "1678291453620-logo-avatar.png",
+    "path": "uploads/200x400-1678291453620-logo-avatar.png",
+    "size": "200x400",
+    "type": "pc",
+    "width": 400
+  },
+  {
+    "height": 200,
+    "id": "7c253fee-9418-4260-ab1c-baada9425af6",
+    "imageId": "8f2f119c-31f5-4ded-9669-922365db484a",
+    "name": "1678338951950-logo-avatar.png",
+    "path": "uploads/200x200-1678338951950-logo-avatar.png",
+    "size": "200x200",
+    "type": "mobile",
+    "width": 200
+  },
+  {
+    "height": 200,
+    "id": "2543ad2e-5fb2-4229-ac29-c8e644777336",
+    "imageId": "8f2f119c-31f5-4ded-9669-922365db484a",
+    "name": "1678338951950-logo-avatar.png",
+    "path": "uploads/200x400-1678338951950-logo-avatar.png",
+    "size": "200x400",
+    "type": "pc",
+    "width": 400
+  },
+  {
+    "height": 200,
+    "id": "1b5e3964-5692-484e-8ed2-e5c06f95f088",
+    "imageId": "177b9a7a-1ff9-4675-ac80-8019985292aa",
+    "name": "1678338966906-logo-avatar.png",
+    "path": "uploads/200x200-1678338966906-logo-avatar.png",
+    "size": "200x200",
+    "type": "mobile",
+    "width": 200
+  },
+  {
+    "height": 200,
+    "id": "6ef4d96c-9770-4a71-ad01-085def40cb73",
+    "imageId": "177b9a7a-1ff9-4675-ac80-8019985292aa",
+    "name": "1678338966906-logo-avatar.png",
+    "path": "uploads/200x400-1678338966906-logo-avatar.png",
+    "size": "200x400",
+    "type": "pc",
+    "width": 400
+  }
+]

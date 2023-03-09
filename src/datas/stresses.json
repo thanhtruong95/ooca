@@ -1,0 +1,195 @@
+[
+  {
+    "createdAt": "2023-03-08T12:43:24.466Z",
+    "id": "c025ccb8-6c1c-464d-a07e-b677b41595e7",
+    "stressLevelId": 2,
+    "userId": "97e490db-f099-4a12-9fd0-f5aaa951f575"
+  },
+  {
+    "createdAt": "2023-03-08T12:43:29.360Z",
+    "id": "c97d9e0d-da12-431d-b6d7-ede6f2719e10",
+    "stressLevelId": 2,
+    "userId": "97e490db-f099-4a12-9fd0-f5aaa951f575"
+  },
+  {
+    "createdAt": "2023-03-08T12:43:55.729Z",
+    "id": "db0104ef-6cfe-4cbb-bc6f-a991a2f8c109",
+    "stressLevelId": 2,
+    "userId": "97e490db-f099-4a12-9fd0-f5aaa951f575"
+  },
+  {
+    "createdAt": "2023-03-08T16:42:29.604Z",
+    "id": "e3c46d0d-75fd-4c30-a37c-0ea9a3f41773",
+    "stressLevelId": 2,
+    "userId": "anonymousId",
+    "isAnonymous": true
+  },
+  {
+    "createdAt": "2023-03-09T04:47:53.718Z",
+    "id": "fa1ddcfb-34e5-45d6-976a-333332dcb739",
+    "stressLevelId": 1,
+    "userId": "97e490db-f099-4a12-9fd0-f5aaa951f575"
+  },
+  {
+    "createdAt": "2023-03-09T04:48:49.058Z",
+    "id": "21096239-fb31-4c13-ac26-6bff520eda7e",
+    "stressLevelId": 1,
+    "userId": "97e490db-f099-4a12-9fd0-f5aaa951f575"
+  },
+  {
+    "createdAt": "2023-03-09T04:50:25.851Z",
+    "id": "010c6547-ea9c-4a21-b1ab-f9843f9df384",
+    "stressLevelId": 1,
+    "userId": "97e490db-f099-4a12-9fd0-f5aaa951f575"
+  },
+  {
+    "createdAt": "2023-03-09T04:50:25.858Z",
+    "id": "6bde1a75-e47a-4ec1-8ee6-fa579d547dd2",
+    "stressLevelId": 1,
+    "userId": "anonymousId",
+    "isAnonymous": true
+  },
+  {
+    "createdAt": "2023-03-09T04:54:12.304Z",
+    "id": "dc76ff9c-7604-4b7e-b085-0993d061433b",
+    "stressLevelId": 1,
+    "userId": "97e490db-f099-4a12-9fd0-f5aaa951f575"
+  },
+  {
+    "createdAt": "2023-03-09T04:54:12.320Z",
+    "id": "eed3de06-2efd-41be-954a-b4eeb3e99e9c",
+    "stressLevelId": 1,
+    "userId": "anonymousId",
+    "isAnonymous": true
+  },
+  {
+    "createdAt": "2023-03-09T04:54:36.356Z",
+    "id": "2db14a58-0575-482c-b1be-5583a3b1fc30",
+    "stressLevelId": 1,
+    "userId": "97e490db-f099-4a12-9fd0-f5aaa951f575"
+  },
+  {
+    "createdAt": "2023-03-09T04:54:36.361Z",
+    "id": "9c48717d-8a4f-48fa-a73e-c575623da28d",
+    "stressLevelId": 1,
+    "userId": "anonymousId",
+    "isAnonymous": true
+  },
+  {
+    "createdAt": "2023-03-09T04:55:30.290Z",
+    "id": "7e0bb85e-d3ed-40f6-942c-82a2dd6d3f20",
+    "stressLevelId": 1,
+    "userId": "97e490db-f099-4a12-9fd0-f5aaa951f575"
+  },
+  {
+    "createdAt": "2023-03-09T04:55:30.295Z",
+    "id": "2ff401be-5e25-4079-927a-0f964e7187e5",
+    "stressLevelId": 1,
+    "userId": "anonymousId",
+    "isAnonymous": true
+  },
+  {
+    "createdAt": "2023-03-09T04:55:45.743Z",
+    "id": "e9c33b72-2789-4b18-be4c-91917f8efa84",
+    "stressLevelId": 1,
+    "userId": "97e490db-f099-4a12-9fd0-f5aaa951f575"
+  },
+  {
+    "createdAt": "2023-03-09T04:55:45.750Z",
+    "id": "3c128005-cf5c-4aca-a49f-9666fb26d7b8",
+    "stressLevelId": 1,
+    "userId": "anonymousId",
+    "isAnonymous": true
+  },
+  {
+    "createdAt": "2023-03-09T04:56:43.742Z",
+    "id": "c37d9dc9-9633-4b50-a16d-4f53505397ab",
+    "stressLevelId": 1,
+    "userId": "97e490db-f099-4a12-9fd0-f5aaa951f575"
+  },
+  {
+    "createdAt": "2023-03-09T04:56:43.749Z",
+    "id": "a1efecd0-d524-448e-8c94-cbc85983cf6e",
+    "stressLevelId": 1,
+    "userId": "anonymousId",
+    "isAnonymous": true
+  },
+  {
+    "createdAt": "2023-03-09T04:57:19.990Z",
+    "id": "523962f1-0de3-4dee-b81c-85b46bb77102",
+    "stressLevelId": 1,
+    "userId": "97e490db-f099-4a12-9fd0-f5aaa951f575"
+  },
+  {
+    "createdAt": "2023-03-09T04:57:19.998Z",
+    "id": "3d241b38-9ba2-444b-b3b7-666ad6f9bb75",
+    "stressLevelId": 1,
+    "userId": "anonymousId",
+    "isAnonymous": true
+  },
+  {
+    "createdAt": "2023-03-09T05:00:26.673Z",
+    "id": "6b3a22a3-b805-4075-9f15-131030373a9d",
+    "stressLevelId": 1,
+    "userId": "97e490db-f099-4a12-9fd0-f5aaa951f575"
+  },
+  {
+    "createdAt": "2023-03-09T05:00:26.679Z",
+    "id": "ec91305e-3383-4705-822b-d43290571c2b",
+    "stressLevelId": 1,
+    "userId": "anonymousId",
+    "isAnonymous": true
+  },
+  {
+    "createdAt": "2023-03-09T05:14:52.168Z",
+    "id": "c4ffa1f9-b663-482a-a8e7-ae7bbff367e2",
+    "stressLevelId": 1,
+    "userId": "97e490db-f099-4a12-9fd0-f5aaa951f575"
+  },
+  {
+    "createdAt": "2023-03-09T05:14:52.174Z",
+    "id": "acd9da12-877a-42d9-a569-b7dcabcf6421",
+    "stressLevelId": 1,
+    "userId": "anonymousId",
+    "isAnonymous": true
+  },
+  {
+    "createdAt": "2023-03-09T05:15:08.104Z",
+    "id": "b1d10ab7-ee12-4824-b4ed-92173e64dcf3",
+    "stressLevelId": 1,
+    "userId": "97e490db-f099-4a12-9fd0-f5aaa951f575"
+  },
+  {
+    "createdAt": "2023-03-09T05:15:08.112Z",
+    "id": "85c9a0b9-15dc-4757-b6da-322032ea1da3",
+    "stressLevelId": 1,
+    "userId": "anonymousId",
+    "isAnonymous": true
+  },
+  {
+    "createdAt": "2023-03-09T05:15:51.941Z",
+    "id": "82c16041-587b-4bb1-b583-856a68ce05ad",
+    "stressLevelId": 1,
+    "userId": "97e490db-f099-4a12-9fd0-f5aaa951f575"
+  },
+  {
+    "createdAt": "2023-03-09T05:15:51.945Z",
+    "id": "81b8aab1-97ba-447f-bad7-5d8f9fae020e",
+    "stressLevelId": 1,
+    "userId": "anonymousId",
+    "isAnonymous": true
+  },
+  {
+    "createdAt": "2023-03-09T05:16:06.891Z",
+    "id": "d3b1bb46-584a-4af1-89d0-9d6963c9531e",
+    "stressLevelId": 1,
+    "userId": "97e490db-f099-4a12-9fd0-f5aaa951f575"
+  },
+  {
+    "createdAt": "2023-03-09T05:16:06.897Z",
+    "id": "ae68f356-2956-480d-a5ad-584c7187616f",
+    "stressLevelId": 1,
+    "userId": "anonymousId",
+    "isAnonymous": true
+  }
+]
