@@ -82,6 +82,8 @@ The tests are written in Jest
 
 ## End points
 
+Please open the postman.http file attached in the project to test the APIs (remember install rest client plugin before execute api route)
+
 - POST /user/login:
 
   Specifies how users should be routed when they want to login.
