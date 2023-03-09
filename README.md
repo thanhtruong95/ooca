@@ -47,17 +47,21 @@ Navigate to `http://localhost:9000`
 
 The folder structure of this app is explained below:
 
-| Name                | Description                                                                                      |
-| ------------------- | ------------------------------------------------------------------------------------------------ |
-| **dist**            | Contains the distributable (or output) from your TypeScript build.                               |
-| **node_modules**    | Contains all npm dependencies                                                                    |
-| **src**             | Contains source code that will be compiled to the dist dir                                       |
-| **src/controllers** | Controllers define functions to serve various express routes.                                    |
-| **src/middleware**  | Express middleware which process the incoming requests before handling them down to the routes   |
-| **src/routes**      | Contain all express routes, separated by module/area of application                              |
-| **src**/index.ts    | Entry point to express app                                                                       |
-| package.json        | Contains npm dependencies as well as [build scripts](#what-if-a-library-isnt-on-definitelytyped) |
-| tsconfig.json       | Config settings for compiling source code only written in TypeScript                             |
+| Name                | Description                                                                                    |
+| ------------------- | ---------------------------------------------------------------------------------------------- |
+| **dist**            | Contains the distributable (or output) from your TypeScript build.                             |
+| **node_modules**    | Contains all npm dependencies                                                                  |
+| **src**             | Contains source code that will be compiled to the dist dir                                     |
+| **src/controllers** | Controllers define functions to serve various express routes.                                  |
+| **src/middleware**  | Express middleware which process the incoming requests before handling them down to the routes |
+| **src/routes**      | Contain all express routes, separated by module/area of                                        |
+
+application  
+| **src/datas** | Contains all the the app data |
+|
+| **src**/index.ts | Entry point to express app |
+| package.json | Contains npm dependencies as well as [build scripts](#what-if-a-library-isnt-on-definitelytyped) |
+| tsconfig.json | Config settings for compiling source code only written in TypeScript |
 
 ## Scripts
 
@@ -78,14 +82,23 @@ The tests are written in Jest
 
 ## End points
 
-- /user/login:
+- POST /user/login:
 
   Specifies how users should be routed when they want to login.
 
-- /stress:
+- GET /stress/{userId}:
 
-  Specifies the method being requested (GET, POST).
+  Specifies how users should be routed when they want to get stresses by userId.
 
-- /stress/anonymous:
+- POST /stress/anonymous:
 
-  This section defines the parameters of your endpoint. They can be defined as path, query, header, formData, or body.
+  - Specifies how users who are anonymous should be routed when they want to create their stress record.
+  - When a guest visits our app, the front-end should generate an ID to define who they are then store the id to localStorage or sessionStorage
+
+- POST /stress:
+
+  Specifies how users who are authenticated should be routed when they want to create their stress record.
+
+- POST /stress/{stressId}/upload:
+
+  Specifies how users should be routed when they want to upload their image related to a stress.
