@@ -12,7 +12,7 @@ This project uses the following environment variables:
 | NODE_APP_JWT_EXPIRE_MINUTES | Token expire in minutes | 240           |
 | NODE_APP_JWT_KEY            | Token signature key     |               |
 
-Note: This project is test my knowledge. So I just simply include the .evn for easy do the test.
+Note: This project test my knowledge. So I just simply include the .evn for easy do the test.
 
 # Pre-requisites
 
@@ -69,7 +69,7 @@ Npm scripts basically allow us to call (and chain) terminal commands via npm.
 | `start`    | Runs node on dist/index.js. Can be invoked with `npm start` |
 | `build`    | Runs full build. Can be invoked with `npm build`            |
 | `dev`      | Runs develop mode. Can be invoked with `npm dev`            |
-| `test`     | Runs build and run tests using mocha                        |
+| `test`     | Runs build and run tests using jest                         |
 | `lint`     | Runs TSLint on project files                                |
 
 ## Testing
@@ -89,6 +89,3 @@ The tests are written in Jest
 - /stress/anonymous:
 
   This section defines the parameters of your endpoint. They can be defined as path, query, header, formData, or body.
-
-- definitions:
-  This section defines the structure of objects used in responses or as parameters.

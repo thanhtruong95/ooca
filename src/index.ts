@@ -85,9 +85,11 @@ app.use((req: Request, res: Response) => {
 /**
  * START APP
  */
+if (process.env.NODE_ENV !== "test") {
+  app.listen(PORT, () => {
+    // // eslint-disable-next-line no-console
+    console.log(`⚡️[App]: Server is running at port:${PORT}`);
+  });
+}
 
-app.listen(PORT, () => {
-  // // eslint-disable-next-line no-console
-  console.log(`⚡️[App]: Server is running at port:${PORT}`);
-});
 export default app;

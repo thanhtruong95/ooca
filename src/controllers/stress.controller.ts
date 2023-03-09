@@ -146,8 +146,6 @@ export const stress_uploadImage = async (
           );
 
           const outputFormat = targetPath.endsWith(".png") ? "png" : "jpeg";
-          console.log({ targetPath, outputFormat });
-
           const pipeline = sharp(path.join(".", "uploads", curr.name)).resize(
             thumb.width,
             thumb.heigh
