@@ -118,5 +118,65 @@
     "size": "200x400",
     "type": "pc",
     "width": 400
+  },
+  {
+    "height": 200,
+    "id": "15f22383-826f-4f34-88d5-42884d1f430c",
+    "imageId": "171750d2-cbe2-4c15-a18f-685e1398f778",
+    "name": "1678421633452-logo-avatar.png",
+    "path": "uploads/200x200-1678421633452-logo-avatar.png",
+    "size": "200x200",
+    "type": "mobile",
+    "width": 200
+  },
+  {
+    "height": 200,
+    "id": "8394aba3-1635-4d3e-9b8e-19d5379ce4e0",
+    "imageId": "171750d2-cbe2-4c15-a18f-685e1398f778",
+    "name": "1678421633452-logo-avatar.png",
+    "path": "uploads/200x400-1678421633452-logo-avatar.png",
+    "size": "200x400",
+    "type": "pc",
+    "width": 400
+  },
+  {
+    "height": 200,
+    "id": "f5992bf5-6c9c-4b1e-99fb-5607f913843f",
+    "imageId": "8b1119ec-d218-4053-81e3-6bb86a0aeb78",
+    "name": "1678422095977-logo-avatar.png",
+    "path": "uploads/200x200-1678422095977-logo-avatar.png",
+    "size": "200x200",
+    "type": "mobile",
+    "width": 200
+  },
+  {
+    "height": 200,
+    "id": "0ae4e1b2-0bdc-4583-87e8-55e9164e4e03",
+    "imageId": "8b1119ec-d218-4053-81e3-6bb86a0aeb78",
+    "name": "1678422095977-logo-avatar.png",
+    "path": "uploads/200x400-1678422095977-logo-avatar.png",
+    "size": "200x400",
+    "type": "pc",
+    "width": 400
+  },
+  {
+    "height": 200,
+    "id": "a1930024-f0bf-4984-b6e1-21fa960b3026",
+    "imageId": "42f4107a-31fd-43a7-943c-d6cf540ab8b4",
+    "name": "1678422112466-logo-avatar.png",
+    "path": "uploads/200x200-1678422112466-logo-avatar.png",
+    "size": "200x200",
+    "type": "mobile",
+    "width": 200
+  },
+  {
+    "height": 200,
+    "id": "59d14e56-72e5-48b1-82ac-99e790d3265b",
+    "imageId": "42f4107a-31fd-43a7-943c-d6cf540ab8b4",
+    "name": "1678422112466-logo-avatar.png",
+    "path": "uploads/200x400-1678422112466-logo-avatar.png",
+    "size": "200x400",
+    "type": "pc",
+    "width": 400
   }
 ]
