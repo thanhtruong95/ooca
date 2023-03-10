@@ -27,6 +27,7 @@ describe("[STRESS]", function () {
       });
     expect(response.status).toEqual(200);
   });
+
   test("it should create stress failed with authentication", async function () {
     const response = await server.post(`/stress`).send({
       stressLevelId: 1,
@@ -45,5 +46,11 @@ describe("[STRESS]", function () {
       .post("/stress/c025ccb8-6c1c-464d-a07e-b677b41595e7/upload")
       .attach("image", "./__tests__/logo-avatar.png");
     expect(response.status).toBe(200);
+  });
+  it("should upload an image failed and return a 404 status code", async () => {
+    const response = await server
+      .post("/stress/c025ccb8-6c1c-464d-a07e-b677b41595e2/upload")
+      .attach("image", "./__tests__/logo-avatar.png");
+    expect(response.status).toBe(404);
   });
 });

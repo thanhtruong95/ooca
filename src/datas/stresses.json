@@ -191,5 +191,44 @@
     "stressLevelId": 1,
     "userId": "anonymousId",
     "isAnonymous": true
+  },
+  {
+    "createdAt": "2023-03-10T04:13:53.431Z",
+    "id": "ed667f63-9be2-40b8-a069-5ba545638587",
+    "stressLevelId": 1,
+    "userId": "97e490db-f099-4a12-9fd0-f5aaa951f575"
+  },
+  {
+    "createdAt": "2023-03-10T04:13:53.446Z",
+    "id": "2191d3e8-c220-4c6e-b080-9bd256454e6e",
+    "stressLevelId": 1,
+    "userId": "anonymousId",
+    "isAnonymous": true
+  },
+  {
+    "createdAt": "2023-03-10T04:21:35.941Z",
+    "id": "013f2ec7-3d44-493a-b33d-8597ff1fa1f6",
+    "stressLevelId": 1,
+    "userId": "97e490db-f099-4a12-9fd0-f5aaa951f575"
+  },
+  {
+    "createdAt": "2023-03-10T04:21:35.962Z",
+    "id": "e248afc2-c2a9-4ce5-8ab5-e23aeb229f3c",
+    "stressLevelId": 1,
+    "userId": "anonymousId",
+    "isAnonymous": true
+  },
+  {
+    "createdAt": "2023-03-10T04:21:52.449Z",
+    "id": "cf96d8f0-790e-47c4-8640-0ca8762cd19b",
+    "stressLevelId": 1,
+    "userId": "97e490db-f099-4a12-9fd0-f5aaa951f575"
+  },
+  {
+    "createdAt": "2023-03-10T04:21:52.458Z",
+    "id": "a52116c3-3979-4cd3-8fea-42cef636c3e4",
+    "stressLevelId": 1,
+    "userId": "anonymousId",
+    "isAnonymous": true
   }
 ]
